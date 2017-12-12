@@ -27,8 +27,7 @@ app.use(bodyParser.json({ type: 'application/vnd.custom-type' }));
 // parse an HTML body into a string
 app.use(bodyParser.text({ type: 'text/html' }));
 
-// lets us access the css file (if we had external client side js files we'd do this for them too...)
-//app.use('/static', express.static(path.join(__dirname, './css/style.css')));
+// lets us access the public folder
 app.use(express.static('./app/public'));
 
 // Routes

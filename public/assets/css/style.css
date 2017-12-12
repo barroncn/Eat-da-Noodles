@@ -1,0 +1,25 @@
+body{
+    background-color:purple;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+}
+
+#head{
+    max-width:350px;
+    margin:auto;
+}
+
+#noodlesIcon{
+    max-height:250px;
+    padding-left:80px;
+}
+
+#instructions{
+    font-size: 18px;
+    text-align:center;
+}
+
+.input-group{
+    max-width: 600px;
+    margin: auto;
+}
