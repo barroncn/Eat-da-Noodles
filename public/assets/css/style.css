@@ -9,6 +9,11 @@ body{
     margin:auto;
 }
 
+.title{
+    text-align:center;
+    text-decoration: underline;
+}
+
 #noodlesIcon{
     max-height:250px;
     padding-left:80px;
@@ -22,4 +27,20 @@ body{
 .input-group{
     max-width: 600px;
     margin: auto;
+}
+
+button{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#foodDiv{
+    max-width: 65%;
+    margin: auto;
+}
+
+#uneaten,
+#eaten{
+    max-width: 50%;
 }
