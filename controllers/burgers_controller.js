@@ -35,8 +35,9 @@ router.post("/", function(req,res){
 });
 
 router.put("/", function(req,res){
-    pasta.update(req.id, function(data){
-        res.redirect("/");
+    pasta.update(req.body.id, function(data){
+        //res.redirect("/");
+        res.status(200).end();
     });
 });
 
