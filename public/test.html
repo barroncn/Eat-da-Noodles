@@ -11,6 +11,7 @@
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     </head>
     <body>
+        <br>
         <div class="container">
             <div id="head">
                 <img id="noodlesIcon" src="assets/images/noodles.png"></img>
@@ -19,12 +20,12 @@
             </div>
             <br>
             <div>
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="">
-                  <span class="input-group-btn">
-                    <button class="btn btn-secondary" type="button">Serve It Up!</button>
-                  </span>
-                </div>
+                <form class="input-group" action="/" method="POST">
+              <input type="text" class="form-control" name="newNoodle">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary" type="submit" id="submit">Serve It Up!</button>
+              </span>
+            </form>
             </div>
             <br>
             <div>

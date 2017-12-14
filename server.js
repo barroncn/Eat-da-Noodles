@@ -1,3 +1,6 @@
+//Server Set Up
+//========================================================================================================================================
+
 // Dependencies
 // =============================================================
 var express = require("express");
@@ -27,6 +30,7 @@ app.use(bodyParser.json({ type: 'application/vnd.custom-type' }));
 app.use(bodyParser.text({ type: 'text/html' }));
 // allow access to public folder
 app.use(express.static("./public"));
+
 
 //Handlebars
 //==============================================================

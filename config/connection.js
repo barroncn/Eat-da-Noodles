@@ -1,3 +1,6 @@
+// mySQL Connection Set Up
+//========================================================================================================================================
+
 var mysql = require("mysql");
 
 var connection;
@@ -22,4 +25,4 @@ connection.connect(function(err){
     console.log("Connected to Noodles Database!");
 });
 
-module.exports = connection;
+module.exports = connection; //export the connection variable

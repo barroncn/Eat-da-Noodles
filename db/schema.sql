@@ -1,9 +1,13 @@
 -- Create Database --
+
 DROP DATABASE IF EXISTS pasta_db;
 
 CREATE DATABASE pasta_db;
 
 USE pasta_db;
+
+
+-- Create Table --
 
 CREATE TABLE pastaDishes(
     id MEDIUMINT AUTO_INCREMENT NOT NULL,
