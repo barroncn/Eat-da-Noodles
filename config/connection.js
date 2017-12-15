@@ -12,11 +12,11 @@ if(process.env.JAWSDB_URL){
 else{
     //otherwise use the local database
     connection = mysql.createConnection({
-                                          host: "localhost",
-                                          user: "root",
-                                          password: "",
-                                          database: "pasta_db"
-                                        });
+        host: "localhost",
+        user: "root",
+        password: "",
+        database: "pasta_db"
+    });
 }
  
 //connect to the database
