@@ -1,4 +1,4 @@
-Eat-tha-Pasta App
+# Eat-da-Pasta App
 
 [Check it out here!](https://powerful-dawn-71781.herokuapp.com/)
 
